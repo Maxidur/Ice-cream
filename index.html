@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/normalise.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalise.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Gllacy</title>
+</head>
+<body>
+	<header class="main-header container clearfix">
+		<div class="logo">
+			<img src="image/logo.svg" width="154px" height="64px" alt="логотип"/>
+		</div>
+		<nav class="main-navigation">
+			<ul class="main-navigation-list">
+				<li class="main-navigation-item"><a class="main-navigation-link" href="#">Каталог</a>
+					<ul class="modal-catalog">
+						<li class="modal-catalog-title">Новинки</li>
+						<li>
+							<ul>
+								<li><a href="catalog.html">Сливочное</a></li>
+								<li><a href="#">Щербеты</a></li>
+								<li><a href="#">Фруктовый лед</a></li>
+								<li><a href="#">Мелорин</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="main-navigation-item"><a class="main-navigation-link" href="#">Доставка и оплата</a></li>
+				<li class="main-navigation-item"><a class="main-navigation-link"href="#">О Kомпании</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="customizing">
+			<div class="search">
+				<div class="modal-search modal-search-close">
+					<form action="#" method="get">
+						<input type="search" name="search" placeholder="Что ищем?">
+					</form>				
+				</div>
+			</div>
+			<div class="user">Вход</div>
+			<div class="cart">Пусто</div>
+		</div>
+		<div class="schedule">
+			<small class="schedule-day">C <span>10</span> до <span>20</span>, ежедневно</small>
+			<span class="schedule-number">8 812 450-25-25</span>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<div class="slider">
+				<input type="radio" name="slider" id="slider1" checked>
+				<input type="radio" name="slider" id="slider2">
+				<input type="radio" name="slider" id="slider3">
+				<div class="sliders">
+					<div class="page one">
+						<img src="image/slaider/morogeno1.png" height="600px">
+						<p>Крем-брюле и пломбир<br/>с малиновым джемом</p>
+					</div>
+					<div class="page two">
+						<img src="image/slaider/morogeno2.png" height="600px">
+						<p>Шоколадный пломбир<br/> и лимонный сорбет</p>
+					</div>
+					<div class="page three">
+						<img src="image/slaider/morogeno3.png" height="600px">
+						<p>Пломбир с помадкой<br/> и клубничный щербет</p>
+					</div>
+				</div>
+				<label for="slider1"></label>
+				<label for="slider2"></label>
+				<label for="slider3"></label>
+				<a class="btn" href="#">Давайте оба!</a>
+			</div>
+			<section class="main-suggestion clearfix">
+				<div class="left-suggestion clearfix">
+					<b>Малинка даром!</b>
+					<p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
+					<a class="btn" href="#">Хочу варенье!</a>
+				</div>
+				<div class="right-suggestion clearfix">
+					<b>Шоколадки даром!</b>
+					<p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+					<a class="btn" href="#">Хочу шоколадки!</a>
+				</div>
+			</section>
+			<section class="main-hits">
+				<div class="hit">
+					<i class="hit-icon"></i>
+					<div class="hit-img">
+						<img src="image/hit/one.jpg" width="265px" height="265px" alt="мороженое">
+					</div>
+					<span class="hit-price"><span class="price">310</span><i class="rub"></i>/кг</span>
+					<p><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></p>
+					<a class="btn" href="#">Быстрый просмотр</a>
+				</div>
+				<div class="hit">
+					<i class="hit-icon"></i>
+					<div class="hit-img">
+						<img src="image/hit/two.jpg" width="265px" height="265px" alt="мороженое">
+					</div>
+					<span class="hit-price"><span class="price">380</span><i class="rub"></i>/кг</span>
+					<p><a href="#">Сливочно-кофейное с кусочками шоколада</a></p>
+					<a class="btn" href="#">Быстрый просмотр</a>
+				</div>
+				<div class="hit">
+					<i class="hit-icon"></i>
+					<div class="hit-img">
+						<img src="image/hit/three.jpg" width="265px" height="265px" alt="мороженое">
+					</div>
+					<span class="hit-price"><span class="price">355</span><i class="rub"></i>/кг</span>
+					<p><a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></p>
+					<a class="btn" href="#">Быстрый просмотр</a>
+				</div>
+				<div class="hit">
+					<i class="hit-icon"></i>
+					<div class="hit-img">
+						<img src="image/hit/four.jpg" width="265px" height="265px" alt="мороженое">
+					</div>
+					<span class="hit-price"><span class="price">415</span><i class="rub"></i>/кг</span>
+					<p><a href="#">Сливочное крем-брюле с карамельной подливкой</a></p>
+					<a class="btn" href="#">Быстрый просмотр</a>
+				</div>
+			</section>
+			<article class="main-info">
+				<h2>Магазин Глейси - это онлайн и офлайн магазин по продаже мороженого собственного производства на развес</h2>
+				<div class="colum-1">
+					<p class="info-par">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+					<p class="info-par">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья</p>
+				</div>
+				<div class="colum-2">
+					<p class="info-par">Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
+					<p class="info-par">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, которая не дает мороженому растаять в пути и позволяет ему сохранить свой превосходный вкус.</p>
+				</div>
+			</article>
+			<section class="main-news clearfix">
+				<div class="new-info">
+					<small>Новое в нашем блоге</small>
+					<p><a href="#">10 способов сервировки<br/>фруктовых щербетов<br/>к столу</a></p>
+				</div>
+				<div class="newsletter">
+					<p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
+					<form action="#" method="get">
+						<input type="email" name="newsemaill" placeholder="Электронная почта">
+						<button class="btn" type="submit">Отправить</button>
+					</form>
+				</div>
+			</section>
+		</div>
+		<div id="map"></div>	
+	</main>
+	<footer class="main-footer container">
+		<ul class="social">
+			<li><a class="tw" href="#"></a></li>
+			<li><a class="inst" href="#"></a></li>
+			<li><a class="face" href="#"></a></li>
+			<li><a class="vk" href="#"></a></li>
+		</ul>
+		<ul class="main-footer-info">
+			<li class= "main-footer-list">
+				<ul>
+					<li><a href="#">Для поставщиков</a></li>
+					<li><a href="#">О производстве</a></li>
+				</ul>
+			</li>
+			<li class="main-footer-list">
+				<ul>
+					<li><a href="#">Наши документы</a></li>
+					<li><a href="#">Экологические стандарты</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="copyright">
+			<a href="#">Сделано в Max Durnenko 2016</a>
+		</div>
+	</footer>
+	<!--Модалки-->
+	<div class="modal-overlay-close">
+		<div class="modal-user">
+			<form action="#" method="post">
+				<input type="email" name="email" placeholder="Электронная почта">
+				<input type="password" name="password" placeholder="Пароль">
+				<button class="btn" type="submit">Войти</button>
+				<div class="modal-userLink">
+					<a href="#">Забыли пароль</a><br/>	
+					<a href="#">Новая регистрация</a>
+				</div>	
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=QtA6LMK7w_5I0-m_oU1BXB1nZmGOf8h0&amp;width=100%25&amp;height=430&amp;lang=ru_UA&amp;id=map&amp;sourceType=constructor&amp;scroll=true"></script>
+</body>
+</html>
